@@ -1,7 +1,6 @@
-
 Pod::Spec.new do |spec|
   spec.name = "SimpleNativeMaxAdIOSSDK"
-  spec.version="0.1.0"
+  spec.version="0.1.1"
   spec.summary= "Simple SDK for include max sdk"
   spec.description= <<-DESC
   Simple SDK for include max sdk, once include it and have appsflyer and max
@@ -10,7 +9,7 @@ Pod::Spec.new do |spec|
   spec.license= { :type => 'MIT', :file => 'LICENSE' }
   spec.author = { "yilang" => "yilang@bepic.cc" }
   spec.ios.deployment_target = "10.0"
-  spec.source = { :git => "https://github.com/bepic-games/SimpleNativeMaxAdIOSSDK.git", :tag => "#{spec.version="0.1.0"
+  spec.source = { :git => "https://github.com/bepic-games/SimpleNativeMaxAdIOSSDK.git", :tag => "#{spec.version}" }
   spec.source_files= 'SimpleNativeMaxAdIOSSDK/*.{framework}/Headers/*.h'
   spec.vendored_frameworks = 'SimpleNativeMaxAdIOSSDK/*.{framework}'
   spec.public_header_files = 'SimpleNativeMaxAdIOSSDK/*.{framework}/Headers/*.h'

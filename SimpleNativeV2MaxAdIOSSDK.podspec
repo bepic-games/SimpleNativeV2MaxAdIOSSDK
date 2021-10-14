@@ -1,9 +1,9 @@
 Pod::Spec.new do |spec|
   spec.name = "SimpleNativeMaxAdIOSSDK"
-  spec.version="0.1.1"
-  spec.summary= "Simple SDK for include max sdk"
+  spec.version="0.1.2"
+  spec.summary= "Simple SDK for include max sdk "
   spec.description= <<-DESC
-  Simple SDK for include max sdk, once include it and have appsflyer and max
+  Simple SDK for include max sdk , please includ the core sdk more
   DESC
   spec.homepage= 'https://github.com/bepic-games/SimpleNativeMaxAdIOSSDK'
   spec.license= { :type => 'MIT', :file => 'LICENSE' }

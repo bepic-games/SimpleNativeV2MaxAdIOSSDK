@@ -1,0 +1,6 @@
+framework module SimpleNativeMax {
+  umbrella header "SimpleNativeMax.h"
+
+  export *
+  module * { export * }
+}

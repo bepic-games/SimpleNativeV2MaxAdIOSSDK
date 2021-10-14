@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = "SimpleNativeMaxAdIOSSDK"
-  spec.version="0.1.2"
+  spec.version="0.1.2t"
   spec.summary= "Simple SDK for include max sdk "
   spec.description= <<-DESC
   Simple SDK for include max sdk , please includ the core sdk more
@@ -23,6 +23,6 @@ Pod::Spec.new do |spec|
   spec.dependency 'AppLovinMediationIronSourceAdapter', '7.1.11.0.0'
   spec.dependency 'AppLovinMediationMintegralAdapter', '6.9.4.0.0'
   spec.dependency 'AppLovinMediationUnityAdsAdapter', '3.7.5.1'
-  spec.dependency 'AppLovinMediationVungleAdapter', '6.9.3.0'
+  spec.dependency 'AppLovinMediationVungleAdapter', '6.10.3.0'
   spec.dependency 'AppLovinMediationTapjoyAdapter', '12.8.1.0'
 end

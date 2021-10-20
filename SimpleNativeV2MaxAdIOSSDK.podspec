@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = "SimpleNativeV2MaxAdIOSSDK"
-  spec.version="0.1.8"
+  spec.version="0.1.9"
   spec.summary= "Simple SDK for include max sdk "
   spec.description= <<-DESC
   Simple SDK for include max sdk , please includ the core sdk more
@@ -15,6 +15,7 @@ Pod::Spec.new do |spec|
   spec.public_header_files = 'SimpleNativeV2MaxAdIOSSDK/*.{framework}/Headers/*.h'
   spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64 armv7 armv7s ' }
   spec.dependency 'AppLovinSDK', '10.3.6'
+  spec.dependency 'FBSDKCoreKit_Basics', '11.2.1'
   spec.dependency 'AppLovinMediationAdColonyAdapter', '4.6.1.0.2'
   spec.dependency 'AppLovinMediationByteDanceAdapter', '3.9.0.4.2'
   spec.dependency 'AppLovinMediationFacebookAdapter', '6.6.0.2'

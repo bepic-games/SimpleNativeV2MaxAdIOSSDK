@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = "SimpleNativeV2MaxAdIOSSDK"
-  spec.version="0.2.4"
+  spec.version="0.2.5"
   spec.summary= "Simple SDK for include max sdk "
   spec.description= <<-DESC
   Simple SDK for include max sdk , please includ the core sdk more

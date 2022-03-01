@@ -14,6 +14,8 @@ Pod::Spec.new do |spec|
   spec.vendored_frameworks = 'SimpleNativeV2MaxAdIOSSDK/*.{framework}'
   spec.public_header_files = 'SimpleNativeV2MaxAdIOSSDK/*.{framework}/Headers/*.h'
   spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64 armv7 armv7s ' }
+  spec.swift_versions = "5.0",
+  spec.swift_version = "5.0"
   spec.dependency 'AppLovinSDK', '10.3.6'
   spec.dependency 'FBSDKCoreKit_Basics', '11.2.1'
   spec.dependency 'AppLovinMediationAdColonyAdapter', '4.7.2.0.0'

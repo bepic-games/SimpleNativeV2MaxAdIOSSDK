@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = "SimpleNativeV2MaxAdIOSSDK"
-  spec.version="0.2.8"
+  spec.version="0.2.12"
   spec.summary= "Simple SDK for include max sdk "
   spec.description= <<-DESC
   Simple SDK for include max sdk , please includ the core sdk more
@@ -17,13 +17,13 @@ Pod::Spec.new do |spec|
   spec.dependency 'AppLovinSDK', '10.3.6'
   spec.dependency 'FBSDKCoreKit_Basics', '11.2.1'
   spec.dependency 'AppLovinMediationAdColonyAdapter', '4.7.2.0.0'
-  spec.dependency 'AppLovinMediationByteDanceAdapter', '4.1.0.2.0'
-  spec.dependency 'AppLovinMediationFacebookAdapter', '6.6.0.2'
-  spec.dependency 'AppLovinMediationFyberAdapter', '8.1.0.0'
+  spec.dependency 'AppLovinMediationByteDanceAdapter', '4.2.5.6.0'
+  spec.dependency 'AppLovinMediationFacebookAdapter', '6.9.0.7'
+  spec.dependency 'AppLovinMediationFyberAdapter', '8.1.3.1'
   spec.dependency 'AppLovinMediationGoogleAdapter', '8.13.0.1'
-  spec.dependency 'AppLovinMediationIronSourceAdapter', '7.1.12.0.0'
-  spec.dependency 'AppLovinMediationMintegralAdapter', '7.0.4.0.0'
-  spec.dependency 'AppLovinMediationUnityAdsAdapter', '3.7.5.1'
-  spec.dependency 'AppLovinMediationVungleAdapter', '6.10.4.0'
-  spec.dependency 'AppLovinMediationTapjoyAdapter', '12.8.1.0'
+  spec.dependency 'AppLovinMediationIronSourceAdapter', '7.2.0.0.0'
+  spec.dependency 'AppLovinMediationMintegralAdapter', '7.1.0.0.0'
+  spec.dependency 'AppLovinMediationUnityAdsAdapter', '4.0.1.0'
+  spec.dependency 'AppLovinMediationVungleAdapter', '6.10.6.1'
+  spec.dependency 'AppLovinMediationTapjoyAdapter', '12.9.0.1'
 end
